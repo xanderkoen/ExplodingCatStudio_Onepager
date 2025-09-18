@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploding Cat Studio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: url('assets/Background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+        header {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: white;
+            padding: 20px 0;
+            position: relative;
+            height: 150px;
+        }
+        header h1 {
+            margin: 0;
+            line-height: 150px;
+        }
+        header img {
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 100%;
+        }
+        .content {
+            padding: 20px;
+        }
+        .game-item {
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            max-width: 600px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .game-item img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .game-item .download-button {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #0000ff;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .game-item .download-button:hover {
+            background-color: #0591f5;
+        }
+        footer {
+            background-color: rgba(244, 244, 244, 0.8);
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="assets/exploding_cat_studio_logo.jpg" alt="Exploding Cat Studio Logo">
+        <h1>Exploding Cat Studio</h1>
+    </header>
+    <div class="content">
+        <div class="game-item">
+            <img src="assets/IMG_6219.png" alt="Spiritbound: Catnonball">
+            <h2>Spiritbound: Catnonball</h2>
+            <p>An indie platformer game created by 5 passionate students at the Hogeschool Rotterdam</p>
+            <a href="https://exploding-cat-studio.itch.io/spiritbound-catnonball" target="_blank" class="download-button">Download Now</a>
+        </div>
+    </div>
+    <footer>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-conditions.html">Terms and Conditions</a>
+    </footer>
+</body>
+</html>
